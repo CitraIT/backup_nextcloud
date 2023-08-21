@@ -55,6 +55,6 @@ log  "Tamanho consumido pelo backup: $(du -sh /backup/nextcloud)"
 
 # Enviando email com log anexo
 if [ -f /scripts/02_send_email.py ]; then
-    /scripts/02_send_email.py
+    /scripts/send_email.py
 fi
 
