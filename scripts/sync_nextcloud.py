@@ -7,7 +7,7 @@ from pathlib import Path
 
 # Set up log file
 timestamp = datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
-logfile = f'/var/log/nextcloud_backup_{timestamp}.log'
+logfile = f'/var/log/nextcloud_backup.log'
 
 def log(message):
     log_message = f"{datetime.datetime.now().isoformat()}: {message}"
